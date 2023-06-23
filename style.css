@@ -1,0 +1,165 @@
+body {
+    
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    background-image: url(imagem.jpg);
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 80px; /* Reduzi o padding para ficar mais adequado em dispositivos menores */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+footer {
+    text-align: center;
+    padding: 20px; /* Adicionei padding para melhorar a aparência do rodapé */
+}
+
+
+.botao {
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(173, 133, 74);
+    padding: 10px 20px; /* Adicionei padding para melhorar a aparência do botão */
+    color: black;
+}
+
+
+select {
+
+    height: 25px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: rgba(228, 222, 214, 0.849);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+.altura{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 50px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 40px;
+    
+    
+    
+    
+    
+}
+
+
+.altura2{
+
+    font-size: 23px;
+
+}
+
+
+
+
+.largura{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 50px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+
+
+.largura2{
+
+    font-size: 23px;
+}
+
+
+
+.resultado {
+
+   color: white;
+   background-color: rgba(129, 71, 5, 0.644);
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) { /* Media query para telas menores de 480 pixels */
+    h1 {
+        font-size: 20px; /* Ajuste adicional para telas menores */
+    }
+
+    main {
+        font-size: 16px; /* Ajuste adicional para telas menores */
+    }
+
+    .botao {
+        font-size: 14px; /* Ajuste adicional para telas menores */
+    }
+
+
+    select {
+        font-size: 16px;
+    }
+
+    .altura{
+        font-size: 16px;
+    }
+
+
+    .largura{
+        font-size: 16px;
+    }
+
+
+    .resultado{
+        font-size: 16px;
+    }
+
+    .altura2{
+        font-size: 16px;
+    }
+
+    .largura2{
+        font-size: 16px;
+    }
+
+
+
+}

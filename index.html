@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    <title></title>
+</head>
+<body>
+
+    <header>
+        
+        
+          
+    </header>
+    
+    <main>
+       
+      <p>Selecione o tipo de material:</p>
+            
+      
+         <select id="revestimento">
+          <optgroup select label="Tijolos Baianos">
+            <option value="tijolo6furos">Tijolo: 6 furos</option>
+            <option value="tijolo8furos">Tijolo: 8 furos</option>
+            <option value="tijolo9furos">Tijolo: 9 furos</option>
+          </optgroup>
+          <optgroup label="Blocos de Concreto"> 
+            <option value="bloco">Bloco de Concreto</option>
+          </optgroup>
+          <optgroup label="Pisos">
+              <option value="pisoCeramico">Piso Cerâmico</option>
+              <option value="pisoMadeira">Piso de Madeira</option>
+              <option value="pisoVinílico">Piso Vinílico</option>
+            </optgroup>
+            <optgroup label="Porcelanatos">
+              <option value="porcelanato">Porcelanato</option>
+            </optgroup>
+        </select>
+
+
+        <br><br><br>
+
+        
+        <label class="altura2" for="altura">Altura da Parede (m):</label>
+        <input class="altura" type="number" id="altura" name="altura" step="0.1" required>
+      
+        <label class="largura2"for="largura">Largura da Parede (m):</label>
+        <input class="largura"type="number" id="largura" name="largura" step="0.1" required>
+        <br><br><br><br>
+            
+        <div class="resultado" id="resultado"></div>
+    </main>
+
+
+
+    
+    <footer>
+      <script src="script.js"></script>
+      <button class="botao" onclick="calcularQuantidade()">Resultado</button>
+      
+    </footer>
+
+</body>
+</html>
