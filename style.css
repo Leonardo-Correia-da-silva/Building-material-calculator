@@ -120,46 +120,44 @@ select {
 
 
 
-@media (max-width: 480px) { /* Media query para telas menores de 480 pixels */
-    h1 {
-        font-size: 20px; /* Ajuste adicional para telas menores */
-    }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
 
-    main {
-        font-size: 16px; /* Ajuste adicional para telas menores */
-    }
+  main {
+    font-size: 20px;
+  }
 
-    .botao {
-        font-size: 14px; /* Ajuste adicional para telas menores */
-    }
+  .resultado {
+    font-size: 16px;
+  }
 
+  .botao,
+  select,
+  .altura,
+  .largura {
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
 
-    select {
-        font-size: 16px;
-    }
+  .altura {
+    height: 25px;
+      
+  }
 
-    .altura{
-        font-size: 16px;
-    }
+  .largura {
+    height: 25px;
+  }
 
+  .altura2 {
+    font-size: 20px;
+  }
 
-    .largura{
-        font-size: 16px;
-    }
-
-
-    .resultado{
-        font-size: 16px;
-    }
-
-    .altura2{
-        font-size: 16px;
-    }
-
-    .largura2{
-        font-size: 16px;
-    }
-
-
-
+  .largura2 {
+    font-size: 20px;
+  }
 }
+
