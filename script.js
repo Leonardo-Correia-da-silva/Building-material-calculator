@@ -10,6 +10,7 @@
       tijolo6furos: 0.0551,
       tijolo8furos: 0.0361,
       tijolo9furos: 0.0456,
+      tijolinhoBarro: 0.022,
       bloco: 0.0646,
       pisoCeramico: .40,
       pisoMadeira: .150,
